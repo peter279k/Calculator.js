@@ -17,6 +17,7 @@
     "coveralls-coverage": "node_modules/nyc/bin/nyc.js report --reporter=text-lcov | coveralls"
   },
   "devDependencies": {
+    "codecov": "^3.0.0",
     "coveralls": "^3.0.0",
     "istanbul": "^0.4",
     "mocha": "^4.0",
