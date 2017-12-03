@@ -27,7 +27,7 @@ function SimpleMath(num1, num2) {
         return Math.sqrt(num);
     }
 
-    this.log = function(num = this.num) {
+    this.log = function(num = this.num1) {
         if(isNaN(num)) {
             throw new TypeError(num + ' is not the valid number');
         }
@@ -37,7 +37,7 @@ function SimpleMath(num1, num2) {
         return Math.log(num);
     }
 
-    this.logTen = function(num = this.num) {
+    this.logTen = function(num = this.num1) {
         if(isNaN(num)) {
             throw new TypeError(num + ' is not the valid number');
         }

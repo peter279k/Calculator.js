@@ -53,6 +53,7 @@ function Calculator(num1, num2) {
         if(num2 == 0) {
             throw new Error(num2 + ' should not be the zero number');
         }
+
         return num1 / num2;
     }
 }
