@@ -1,5 +1,9 @@
 # Calculatorjs
 
+[![Build Status](https://travis-ci.org/peter279k/Calculator.js.svg?branch=master)](https://travis-ci.org/peter279k/Calculator.js)
+[![Coverage Status](https://coveralls.io/repos/github/peter279k/Calculator.js/badge.svg?branch=master)](https://coveralls.io/github/peter279k/Calculator.js?branch=master)
+[![CodeCov](https://codecov.io/gh/peter279k/Calculator.js/branch/master/graph/badge.svg)](https://codecov.io/gh/peter279k/Calculator.js)
+
 The dead simple Calculatorjs is for the workshop
 
 # Usage
@@ -26,11 +30,10 @@ npm run-script mocha-test
 
 - [slide](http)
 
-- Introduction testing
+- Introduction Testing
 - Assertions
-- Node.js unit testing
-- QUnit
+- Node.js Unit Testing
 - Code coverage
 - istanbul
-- blanket
 - CI service integration
+- Code coverage service integration
