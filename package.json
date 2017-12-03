@@ -1,6 +1,6 @@
 {
-  "name": "calculatorjs",
-  "version": "1.0.0",
+  "name": "simplecalculatorjs",
+  "version": "1.0.1",
   "description": "The simple calculator",
   "main": "src/main.js",
   "engines": {
