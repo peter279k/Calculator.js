@@ -2,11 +2,8 @@ sudo: false
 language: node_js
 node_js:
   - 6
-  - 4
   - "stable"
 
-script: npm test
-
-after_success:
+script:
   - npm run-script coveralls-coverage
   - npm run-script codecov-coverage
