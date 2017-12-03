@@ -12,7 +12,7 @@ The dead simple Calculator.js is for the workshop
 ```bash
 npm install simplecalculatorjs
 ```
-## Access the package
+## Simple package usage
 
 ```bash
 var calculatorjs = require('simplecalculatorjs');
@@ -22,7 +22,14 @@ var calculator = new Calculator(1, 2);
 var simpleMath = new SimpleMath(2, 3);
 
 console.log(calculator.add());
+console.log(calculator.minus());
+console.log(calculator.divide());
+console.log(calculator.mul());
+
 console.log(simpleMath.pow());
+console.log(simpleMath.sqrt());
+console.log(simpleMath.log());
+console.log(simpleMath.logTen());
 
 ```
 
