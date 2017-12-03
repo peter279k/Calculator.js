@@ -1,0 +1,39 @@
+{
+  "name": "calculatorjs",
+  "version": "1.0.0",
+  "description": "The simple calculator",
+  "main": "src/main.js",
+  "engines": {
+    "node": ">=6.12.0"
+  },
+  "scripts": {
+    "test": "node_modules/nyc/bin/nyc.js mocha",
+    "assert-test": "node test/CalculatorTest.js",
+    "istanbul-test": "node_modules/istanbul/lib/cli.js cover test/CalculatorTest.js",
+    "mocha-istanbul-text-test": "node_modules/nyc/bin/nyc.js --reporter=text mocha",
+    "mocha-istanbul-html-test": "node_modules/nyc/bin/nyc.js --reporter=html mocha",
+    "qunit-test": "node_modules/node-qunit/bin/cli.js -c src/main.js  -t qunit_test/CalculatorTestQUnit.js",
+    "codecov-coverage": "node_modules/nyc/bin/nyc.js report --reporter=text-lcov > coverage.lcov && codecov",
+    "coveralls-coverage": "node_modules/nyc/bin/nyc.js report --reporter=text-lcov | coveralls"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "istanbul": "^0.4",
+    "mocha": "^4.0",
+    "node-qunit": "^1.0",
+    "nyc": "^11.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peter279k/calculatorjs.git"
+  },
+  "keywords": [
+    "calculator"
+  ],
+  "author": "peter279k <peter279k@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peter279k/calculatorjs/issues"
+  },
+  "homepage": "https://github.com/peter279k/calculatorjs#readme"
+}
