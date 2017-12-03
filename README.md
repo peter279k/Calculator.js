@@ -47,8 +47,6 @@ npm install
 - run testing
 ```bash
 npm test
-npm run-script qunit-test
-npm run-script mocha-test
 ```
 
 # Slide sections
