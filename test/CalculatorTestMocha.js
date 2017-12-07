@@ -12,3 +12,11 @@ describe('Calculator', function() {
     });
   });
 });
+
+describe('Calculator', function() {
+    describe('minus()', function() {
+        it('should return 3', function() {
+            assert.equal(-1, calculator.minus());
+    });
+  });
+});

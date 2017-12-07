@@ -15,9 +15,9 @@ npm install simplecalculatorjs
 ## Simple package usage
 
 ```bash
-var calculatorjs = require('simplecalculatorjs');
-var Calculator = calculatorjs.Calculator;
-var SimpleMath = calculatorjs.SimpleMath;
+const SimpleCalculatorJs = require('simplecalculatorjs');
+var Calculator = SimpleCalculatorJs.Calculator;
+var SimpleMath = SimpleCalculatorJs.SimpleMath;
 var calculator = new Calculator(1, 2);
 var simpleMath = new SimpleMath(2, 3);
 
