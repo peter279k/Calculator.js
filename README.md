@@ -51,7 +51,7 @@ npm test
 
 # Slide sections
 
-[slide](http)
+[slide](https://slides.com/peter279k/nodejs-ci-cd/fullscreen#/)
 
 - Introduction Testing
 - Assertions
