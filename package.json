@@ -7,11 +7,11 @@
     "node": ">=6.12.0"
   },
   "scripts": {
-    "test": "node_modules/nyc/bin/nyc.js mocha",
+    "test": "node node_modules/nyc/bin/nyc.js mocha",
     "assert-test": "node test/CalculatorTest.js",
-    "istanbul-test": "node_modules/istanbul/lib/cli.js cover test/CalculatorTest.js",
-    "mocha-istanbul-text-test": "node_modules/nyc/bin/nyc.js --reporter=text mocha",
-    "mocha-istanbul-html-test": "node_modules/nyc/bin/nyc.js --reporter=html mocha",
+    "istanbul-test": "node node_modules/istanbul/lib/cli.js cover test/CalculatorTest.js",
+    "mocha-istanbul-text-test": "node node_modules/nyc/bin/nyc.js --reporter=text mocha",
+    "mocha-istanbul-html-test": "node node_modules/nyc/bin/nyc.js --reporter=html mocha",
     "codecov-coverage": "node_modules/nyc/bin/nyc.js report --reporter=text-lcov > coverage.lcov && codecov",
     "coveralls-coverage": "node_modules/nyc/bin/nyc.js report --reporter=text-lcov | coveralls"
   },
