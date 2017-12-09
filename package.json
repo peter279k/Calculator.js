@@ -1,6 +1,6 @@
 {
   "name": "simplecalculatorjs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The simple calculator",
   "main": "src/main.js",
   "engines": {
@@ -33,7 +33,7 @@
   "author": "peter279k <peter279k@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/peter279k/calculatorjs/issues"
+    "url": "https://github.com/peter279k/Calculator.js/issues"
   },
-  "homepage": "https://github.com/peter279k/calculatorjs#readme"
+  "homepage": "https://github.com/peter279k/Calculator.js#readme"
 }
